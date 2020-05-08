@@ -7,7 +7,7 @@ my_hash_creator(:name, "George")
 
 def read_from_hash(hash, key)
   for key, value in hash
-    if hash[key]
+    if hash[key] != nil
       return value
     elsif hash[key] == nil
       return nil
