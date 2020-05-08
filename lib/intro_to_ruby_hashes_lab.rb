@@ -14,7 +14,7 @@ def read_from_hash(hash, key)
   end
 end
 hash_to_read = {location: 'New York City', occupation: 'Student'}
-puts read_from_hash(hash_to_read, :location)
+puts read_from_hash({name: 'Steve'}, :name))
 
 def update_counting_hash(hash, key)
   if hash[key]
