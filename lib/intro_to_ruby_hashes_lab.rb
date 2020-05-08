@@ -8,7 +8,7 @@ def my_hash_creator(hash, key)
 end
 hash = "name" 
 key = "George"
-my_hash_creator(hash, value)
+my_hash_creator(hash, key)
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
