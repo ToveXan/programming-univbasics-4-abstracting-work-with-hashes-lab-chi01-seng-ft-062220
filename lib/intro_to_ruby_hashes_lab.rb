@@ -13,7 +13,8 @@ def read_from_hash(hash, key)
     nil
   end
 end
-puts read_from_hash({name: 'Steve'}, :name)
+test = {name: 'Steve'}
+puts read_from_hash(test, :name)
 
 def update_counting_hash(hash, key)
   if hash[key]
