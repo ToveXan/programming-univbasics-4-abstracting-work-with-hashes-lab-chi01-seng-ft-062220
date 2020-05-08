@@ -14,6 +14,7 @@ def read_from_hash(hash, key)
     end
   end
 end
+
 hash_to_read = {location: 'New York City', occupation: 'Student'}
 puts read_from_hash(hash_to_read, :location)
 
