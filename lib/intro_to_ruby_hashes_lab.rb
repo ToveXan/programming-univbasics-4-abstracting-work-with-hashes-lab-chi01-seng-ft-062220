@@ -8,7 +8,7 @@ my_hash_creator(:name, "George")
 
 hash_to_read = {location: 'New York City', occupation: 'Student'}
 def read_from_hash(hash, key)
-  if key != nil
+  if hash[key] != nil
     puts hash[key]
   else
     nil
