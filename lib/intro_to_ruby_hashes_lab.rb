@@ -7,7 +7,7 @@ my_hash_creator(:name, "George")
 
 def read_from_hash(hash, special_key)
   if hash.fetch(special_key) == special_key
-    hash.fetch(special_keykey)
+    hash.fetch(special_key)
   else  
     hash.fetch(nil, nil)
   end
