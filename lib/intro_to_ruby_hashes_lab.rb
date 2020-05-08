@@ -15,8 +15,8 @@ def read_from_hash(hash, key)
     end
   end
 end
-test = {name: 'Steve'}
-puts read_from_hash(test, :name)
+hash_to_read = {location: 'New York City', occupation: 'Student'}
+puts read_from_hash(hash_to_read, :location)
 
 def update_counting_hash(hash, key)
   if hash[key]
