@@ -8,11 +8,12 @@ my_hash_creator(:name, "George")
 
 def read_from_hash(hash, key)
   if hash[key] != nil
-    puts hash[key]
+    puts print_hash = "#{hash[key}"
   else
     nil
   end
 end
+
 hash_to_read = {location: 'New York City', occupation: 'Student'}
 puts read_from_hash({name: 'Steve'}, :name)
 
