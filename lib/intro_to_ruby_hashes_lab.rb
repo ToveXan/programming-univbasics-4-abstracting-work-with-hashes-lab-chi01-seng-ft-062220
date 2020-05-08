@@ -6,7 +6,7 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, key)
-  if h.fetch(nil, nil)
+
     
     
 end
