@@ -10,7 +10,8 @@ def read_from_hash(hash, key)
     if hash[key] != nil
       return value
     else
-      return nil
+      value = nil
+      return value
     end
   end
 end
