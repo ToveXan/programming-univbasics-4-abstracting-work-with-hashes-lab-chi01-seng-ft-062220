@@ -1,4 +1,4 @@
-def my_hash_creator(key, value)
+def my_hash_creator(hash, key)
   if hash[key]
     hash[key] = hash[key] + 1
   else
@@ -6,9 +6,9 @@ def my_hash_creator(key, value)
   end
   hash
 end
-key = "name" 
-value = "George"
-my_hash_creator(key, value)
+hash = "name" 
+key = "George"
+my_hash_creator(hash, value)
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
