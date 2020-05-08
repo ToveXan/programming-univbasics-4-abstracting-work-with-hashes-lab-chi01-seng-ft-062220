@@ -8,9 +8,9 @@ my_hash_creator(:name, "George")
 
 def read_from_hash(hash, key)
   if hash[key]
-    hash[key] += 1
+    hash[key] += key
   else
-    hash[key] = 1
+    hash[key] = nil
   end
 end
 hash_to_read = {location: 'New York City', occupation: 'Student'}
