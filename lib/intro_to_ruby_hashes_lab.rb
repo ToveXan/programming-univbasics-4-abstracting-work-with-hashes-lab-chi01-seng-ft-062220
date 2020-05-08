@@ -9,7 +9,7 @@ def read_from_hash(hash, key)
   for key, value in hash
     if hash[key]
       return value
-    elsif key == nil
+    elsif hash[key] == nil
       return nil
     end
   end
