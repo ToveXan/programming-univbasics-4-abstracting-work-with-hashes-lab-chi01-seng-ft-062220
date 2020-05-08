@@ -6,12 +6,10 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, special_key)
-  for key, value in hash
-    if hash[key] == special_key
-      hash.fetch(key)
-    else  
-      hash.fetch(nil, nil)
-    end
+  if hash.fetch(key) == special_key
+    hash.fetch(key)
+  else  
+    hash.fetch(nil, nil)
   end
 end
 
