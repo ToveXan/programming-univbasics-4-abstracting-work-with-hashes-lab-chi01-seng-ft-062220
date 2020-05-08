@@ -6,7 +6,7 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, key)
-  hash.fetch
+  hash.fetch(key)
 end
 
 hash_to_read = {location: 'New York City', occupation: 'Student'}
