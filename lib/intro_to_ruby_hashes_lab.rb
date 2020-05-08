@@ -14,7 +14,7 @@ def read_from_hash(hash, key)
     nil
   end
 end
-test = {name: 'Steve'}
+test = {name: => 'Steve'}
 puts read_from_hash(test, :name)
 
 def update_counting_hash(hash, key)
