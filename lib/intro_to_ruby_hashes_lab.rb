@@ -7,14 +7,15 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, key)
-  
-  if key == hash[value]
-    puts value
-  else
-    nil
+  for value, key in hash
+    if key == hash[value]
+      puts value
+    else
+      nil
+    end
   end
 end
-test = {name: => 'Steve'}
+test = {name: 'Steve'}
 puts read_from_hash(test, :name)
 
 def update_counting_hash(hash, key)
