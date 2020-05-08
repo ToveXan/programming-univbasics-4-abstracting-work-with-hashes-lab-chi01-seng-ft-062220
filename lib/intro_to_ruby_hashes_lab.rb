@@ -13,6 +13,7 @@ def read_from_hash(hash, key)
     nil
   end
 end
+hash_to_read = {location: 'New York City', occupation: 'Student'}
 read_from_hash({name: 'Steve'}, :name)
 
 def update_counting_hash(hash, key)
