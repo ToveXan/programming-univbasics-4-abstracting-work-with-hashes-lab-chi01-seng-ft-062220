@@ -6,13 +6,12 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, key)
-  for key, value
+  for key, value in hash
     if hash[key]
       return value
     else
       hash[key] = nil
     end
-    value
   end
 end
 
