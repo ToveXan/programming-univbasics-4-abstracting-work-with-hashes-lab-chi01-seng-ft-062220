@@ -5,8 +5,9 @@ end
 
 my_hash_creator(:name, "George")
 
+hash_to_read = {location: 'New York City', occupation: 'Student'}
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+  
 end
 
 def update_counting_hash(hash, key)
