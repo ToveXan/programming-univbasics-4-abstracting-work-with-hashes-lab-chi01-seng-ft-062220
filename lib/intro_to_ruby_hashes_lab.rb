@@ -3,7 +3,7 @@ def my_hash_creator(key, value)
 end
 key = name 
 value = "George"
-my_hash_creator(key, value)
+my_hash_creatorla(key, value)
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
