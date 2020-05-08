@@ -11,6 +11,8 @@ def read_from_hash(hash, key)
       return value
     elsif hash[key] == nil
       return nil
+    else
+      nil
     end
   end
 end
