@@ -6,8 +6,11 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, key)
-  hash.fetch(nil, nil)
-
+  if hash[key] ==key
+    hash.fetch(key)
+  else  
+    hash.fetch(nil, nil)
+  end
 end
 
 hash_to_read = {location: 'New York City', occupation: 'Student'}
