@@ -6,7 +6,7 @@ my_hash_creator(:name, "George")
 
 
 def read_from_hash(hash, key)
-  if hash[key] ==key
+  if hash[key] == key
     hash.fetch(key)
   else  
     hash.fetch(nil, nil)
