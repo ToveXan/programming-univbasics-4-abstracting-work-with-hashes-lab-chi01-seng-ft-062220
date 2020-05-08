@@ -1,5 +1,9 @@
 def my_hash_creator(key, value)
-  new_hash = {:key => value}
+  if hash[key]
+    hash[key] = hash[key] + 1
+  else
+    hash[key] = 1 
+  end
 end
 key = "name" 
 value = "George"
