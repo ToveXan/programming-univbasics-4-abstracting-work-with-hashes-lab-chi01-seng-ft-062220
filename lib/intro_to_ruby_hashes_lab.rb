@@ -9,7 +9,7 @@ def read_from_hash(hash, key)
   if hash.has_key?(key)
     hash.fetch(key)
   else
-    hash.fetch(nil)
+    hash.fetch(nil, nil)
   end
 end
 
