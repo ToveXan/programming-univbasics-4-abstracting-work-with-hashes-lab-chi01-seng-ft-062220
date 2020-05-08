@@ -1,7 +1,7 @@
 def my_hash_creator(key, value)
   new_hash = {:key => value}
 end
-key = name 
+key = "name" 
 value = "George"
 my_hash_creatorla(key, value)
 
