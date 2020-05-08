@@ -9,7 +9,8 @@ def read_from_hash(hash, key)
   if hash.has_key?
     hash.fetch(key)
   else
-    hash.fetch(nil, nil)
+    hash.fetch(nil)
+  end
 end
 
 hash_to_read = {location: 'New York City', occupation: 'Student'}
