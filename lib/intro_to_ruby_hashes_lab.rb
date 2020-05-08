@@ -6,7 +6,6 @@ end
 my_hash_creator(:name, "George")
 
 
-hash_to_read = {location: 'New York City', occupation: 'Student'}
 def read_from_hash(hash, key)
   if hash != nil
     puts hash[key]
@@ -14,7 +13,7 @@ def read_from_hash(hash, key)
     nil
   end
 end
-read_from_hash(hash_to_read{name: 'Steve'}, :location)
+read_from_hash(hash_to_read{name: 'Steve'}, :name)
 
 def update_counting_hash(hash, key)
   if hash[key]
