@@ -5,9 +5,9 @@ end
 my_hash_creator(:name, "George")
 
 
-def read_from_hash(hash, key)
+def read_from_hash(hash, special_key)
   for key, value in hash
-    if hash[key] == key
+    if hash[key] == special_key
       hash.fetch(key)
     else  
       hash.fetch(nil, nil)
