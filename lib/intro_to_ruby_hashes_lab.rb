@@ -7,7 +7,7 @@ my_hash_creator(:name, "George")
 
 hash_to_read = {location: 'New York City', occupation: 'Student'}
 def read_from_hash(hash, key)
-  
+  if 
 end
 
 def update_counting_hash(hash, key)
