@@ -12,6 +12,7 @@ def read_from_hash(hash, key)
     else
       hash[key] = nil
     end
+    value
   end
 end
 
