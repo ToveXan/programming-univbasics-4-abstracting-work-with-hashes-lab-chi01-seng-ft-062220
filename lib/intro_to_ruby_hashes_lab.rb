@@ -4,6 +4,7 @@ def my_hash_creator(key, value)
   else
     hash[key] = 1 
   end
+  hash
 end
 key = "name" 
 value = "George"
