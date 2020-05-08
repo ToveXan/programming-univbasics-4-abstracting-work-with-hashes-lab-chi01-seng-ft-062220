@@ -11,6 +11,7 @@ def read_from_hash(hash, key)
     puts hash[key]
   else
     nil
+  end
 end
 read_from_hash(hash_to_read, :location)
 
